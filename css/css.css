@@ -4,6 +4,10 @@ body{
     height: 10000px;
 }
 
+span{
+    text-shadow: 1px 1px 1px #000;
+}
+
 .divide{
     height: 40px;
     width: 1px;
