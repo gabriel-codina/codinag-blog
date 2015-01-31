@@ -1,7 +1,8 @@
 $("document").ready(function() {
   
-   setInterval(stick, 500);
-    function stick(){
-    $(".cssmenu").css({"top":"0", "bottom":"auto"});
-    }
+   $(".index").bind('click', indexclick);
+   
+   function indexclick(){
+       $(".index").addClass("active");
+   }
 });
