@@ -1,5 +1,5 @@
 <?php
-require_once (__DIR__."/view/common.php");
+require_once (__DIR__."/model/config.php");
 $nav1 = "";
 $nav2 = "active";
 $nav3 = "";

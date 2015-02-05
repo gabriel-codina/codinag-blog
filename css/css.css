@@ -21,7 +21,7 @@ span{
     margin-right: 10px;
 }
 
-.cssmenu ul,
+.cssmenu .ulm,
 .cssmenu .link,
 .cssmenu a {
 
@@ -89,7 +89,7 @@ span{
 
 }
 
-.cssmenu ul {
+.cssmenu .ulm {
 
   zoom: 1;
 
@@ -123,7 +123,7 @@ span{
 
 }
 
-.cssmenu ul:before {
+.cssmenu .ulm:before {
 
   content: '';
  
@@ -131,7 +131,7 @@ span{
 
 }
 
-.cssmenu ul:after {
+.cssmenu .ulm:after {
 
   content: '';
  
@@ -347,3 +347,53 @@ h1,h2,h3,h4,h5,h6{
 .idk{
     padding-left: 5px;
 }
+
+.uls {
+	display: none;
+}
+
+	
+
+.dropdwn{
+    text-decoration: none;
+    color: black;
+ 
+}
+
+.dropdwn:hover{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.navigate1{
+    
+   
+   height: 25px;
+   width: 25px;
+     border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+       transition: padding-left 250ms ease-out;
+       box-shadow:3px 3px 3px #000;
+    
+}
+
+.space{
+
+   float: right;
+   position: relative;
+min-height: 1px;
+
+box-sizing: border-box;
+margin-right: 10px;
+
+}
+
+form{
+    height: 150px;
+}
+
+
+
