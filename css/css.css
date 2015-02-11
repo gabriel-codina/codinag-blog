@@ -323,6 +323,25 @@ inputs-moz-placeholder {
     
 }
 
+.regi{
+    -moz-border-radius: 5px 0 0 5px;
+    -webkit-border-radius: 5px 0 0 5px;
+    background: #EEE;
+    border: 1px solid #CCC;
+    border-radius: 5px 0 0 5px;
+    border-right: 1px solid #FFF;
+    display: inline-block;
+    height: 36px;
+    width: 275px;
+    line-height: 36px;
+   
+    width: 110px !important;
+
+    top: 0;
+    left: 0;
+    padding:0;
+}
+
 .user label {
     background: url(https://cdn2.iconfinder.com/data/icons/flaticons-stroke/16/post-comment-1-16.png) no-repeat 8px center;
 }
@@ -338,6 +357,7 @@ label {
 
 p{
     color:black;
+ 
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -395,5 +415,49 @@ form{
     height: 150px;
 }
 
+.butto {
+	-moz-box-shadow: 3px 4px 0px 0px #899599;
+	-webkit-box-shadow: 3px 4px 0px 0px #899599;
+	box-shadow: 3px 4px 0px 0px #899599;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #bab1ba));
+	background:-moz-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background:-webkit-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background:-o-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background:-ms-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#bab1ba',GradientType=0);
+	background-color:#ededed;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#2d7385;
+	font-family:arial;
+	font-size:17px;
+	padding:0px 19px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+}
+.butto:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bab1ba), color-stop(1, #ededed));
+	background:-moz-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:-webkit-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:-o-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:-ms-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bab1ba', endColorstr='#ededed',GradientType=0);
+	background-color:#bab1ba;
+}
+.butto:active {
+	position:relative;
+	top:1px;
+}
+
+.special_height{
+    height: 300px;
+    
+}
 
 

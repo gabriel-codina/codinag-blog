@@ -1,5 +1,6 @@
 <?php
 require_once (__DIR__ . "/database.php");
+session_start();
 //making a variable and storing something in it
 $host = "localhost";
 $username = "root";
@@ -11,4 +12,9 @@ $nav2 = "";
 $nav3 = "";
 $nav4 = "";
 
-$connection = new Database($host, $username, $password, $database);
+$himain = "";
+
+if(!isset($_SESSION["connection"])) {
+    $connection = new Database($host, $username, $password, $database);
+    $_SESSION["connection"] = $connection;
+}

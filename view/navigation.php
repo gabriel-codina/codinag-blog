@@ -5,7 +5,7 @@
     <li class="divide"></li>
     <li class='link <?php echo $nav1;?>'><a href='index.php'><span>Home</span></a></li>
    <li class='link <?php echo $nav2;?>'><a href='post.php'><span>Blog Post Form</span></a></li>
-   <li class='link <?php echo $nav3;?>'><a href='#'><span>Company</span></a></li>
+   <li class='link <?php echo $nav3;?>'><a href='register.php'><span>Create Account</span></a></li>
    <li class='link <?php echo $nav4;?> last'><a href='#'><span>Contact</span></a></li>
    <div class="space navigate1 techno"><a class="link1" href="#"> &#9660</a>
                     <ul class="uls">
@@ -14,4 +14,4 @@
                 </div>
 </ul>
 </div>
-   <div class="main">
+   <div class="main <?php echo $himain;?>">
