@@ -1,5 +1,5 @@
 <h1>Register</h1>
-<form method="post" action="/codinag-blog/controller/create-post.php">
+<form method="post" action="/codinag-blog/controller/create-user.php">
     
     <div>
         
@@ -21,7 +21,7 @@
          <div class="regi user"> 
         <label for="password">Password:</label>
          </div>
-        <input placeholder="Password" class="inputs ptitle" type="text" name="password"/>
+        <input placeholder="Password" class="inputs ptitle" type="password" name="password"/>
     </div>
     
     <div>

@@ -5,6 +5,7 @@ $nav1 = "";
 $nav2 = "";
 $nav3 = "active";
 $nav4 = "";
+$nav5 = "";
 
 $himain = "special_height";
 

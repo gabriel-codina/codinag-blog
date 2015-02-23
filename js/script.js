@@ -1,4 +1,5 @@
 $("document").ready(function() {
+    likes = 0;
     $(".techno").bind('mouseover', dropdown);
     $(".techno").bind('mouseout', dropin);
    $(".index").bind('click', indexclick);
@@ -21,6 +22,8 @@ $("document").ready(function() {
 "box-sizing": "border-box",
 "z-index": "30",
    });
+   setInterval(like, 100);
+   $(".lik").bind('click', liked);
    
    function indexclick(){
        $(".index").addClass("active");
@@ -35,5 +38,14 @@ $("document").ready(function() {
 function dropin() {
     $(".uls").stop().slideUp(800);
     
+}
+
+function like(){
+     $(".lik").text("☺" + likes);
+  
+}
+
+function liked(){
+    likes++;
 }
 });

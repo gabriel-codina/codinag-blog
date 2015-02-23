@@ -1,7 +1,7 @@
  
 body{
     background-color: blue;
-    height: 10000px;
+   
 }
 
 span{
@@ -57,16 +57,46 @@ span{
   
   padding: 20px;
  background: rgba(0,0,0,.3);
- position: fixed;
+
  top: 0;
- width: 95.69%;
+
  box-shadow: 2px 2px 2px #000; 
 
+}
+
+.fix{
+     position: fixed;
+     top: 0;
+     width: 100%;
 }
 
 .main{
  
  border: 1px solid #133e40;
+
+  -webkit-border-radius: 5px;
+
+  -moz-border-radius: 5px;
+
+  -ms-border-radius: 5px;
+
+  -o-border-radius: 5px;
+ 
+ border-radius: 5px;
+
+  width: 100%;
+  
+  padding: 20px;
+ background: rgba(0,0,0,.3);
+ margin-top: 85px;
+  box-shadow: 8px 8px 8px #000; 
+
+ 
+
+}
+
+.post{
+     border: 1px solid #133e40;
 
   -webkit-border-radius: 5px;
 
@@ -85,7 +115,27 @@ span{
  margin-top: 85px;
   box-shadow: 8px 8px 8px #000; 
 
+}
+
+.post1{
+     border: 1px solid #133e40;
+
+  -webkit-border-radius: 5px;
+
+  -moz-border-radius: 5px;
+
+  -ms-border-radius: 5px;
+
+  -o-border-radius: 5px;
  
+ border-radius: 5px;
+
+  width: 96.55%;
+  
+  padding: 20px;
+ background: rgba(0,0,0,.3);
+ margin-top: 10px;
+  box-shadow: 8px 8px 8px #000; 
 
 }
 
@@ -458,6 +508,10 @@ form{
 .special_height{
     height: 300px;
     
+}
+
+.usern{
+    margin: 0;
 }
 
 

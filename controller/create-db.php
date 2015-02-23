@@ -5,6 +5,7 @@ require_once(__DIR__ . "/../model/config.php");
 
 $query = $_SESSION["connection"]->query("CREATE TABLE posts ("
         . "id int (11) NOT NULL AUTO_INCREMENT,"
+        . "user varchar(255) NOT NULL,"
         . "title varchar(255) NOT NULL,"
         . "post text NOT NULL,"
         . "PRIMARY KEY (id))");
