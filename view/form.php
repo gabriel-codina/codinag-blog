@@ -1,5 +1,5 @@
 <h1>Create Blog Post</h1>
-<form method="post" action="/codinag-blog/controller/create-post.php">
+<form method="post" action="/codinag-blog/controller/create-post.php" enctype="multipart/form-data">
     <div>
         <div class="input_label user"> 
             <label for="title"> 
@@ -16,12 +16,15 @@
          <textarea class="inputs" placeholder="Post" name="post"></textarea>
         </div>
     </div>
+       <input type="file" name="image">
+ 
     
     <div>
         <button class="butto" type="submit">Submit</button>
     </div>
-        
-        
-        
-    
+   
 </form>
+
+
+ 
+  

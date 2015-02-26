@@ -13,6 +13,9 @@
         </div>
         <input placeholder="Password" class="inputs ptitle" type="password" name="password"/>
     </div>
+    
+    <a href="forgot_pass.php">Forgot Password?</a>
+        
 
     <div>
         <button class="butto" type="submit">Submit</button>

@@ -1,3 +1,4 @@
+
 <?php
 
 require_once(__DIR__ . "/../model/config.php");
@@ -15,7 +16,9 @@ if($result){
         echo "<br />"; 
         echo "<p>" . $row['post'] . "</h1>";
         echo "<br />";
-        echo "<h3 class='lik'>☺</h3>";
+        echo "<h6>". $row['date'] . "</h3>";
+        echo "<br />";
+        echo "<img class='imag-sz' src=get.php>";
         echo "<br />";
         echo "</div>";
         echo "</div>";

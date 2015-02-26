@@ -11,10 +11,15 @@ and open the template in the editor.
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
           <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
         <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+     
         <script type="text/javascript" src="js/script.js"></script>
         <link rel="stylesheet" href="css/css.css">
         <title></title>
     </head>
     <body>
+        <video autoplay loop muted poster="polina.jpg" id="bgvid">
+            <source src="polina.webm" type="video/webm">
+            <source src="Sony Vegas Snow Falling Effect Blue Background Good By. CrounDz.mp4" type="video/mp4">
+        </video>
         
         

@@ -4,8 +4,8 @@
     $username = filter_input(INPUT_POST, "username", FILTER_SANITIZE_STRING);
      //sets what the password that the user typed in, in a variable called $password 
      $password = filter_input(INPUT_POST, "password", FILTER_SANITIZE_STRING);
-     
-     $query = $_SESSION["connection"]->query("SELECT salt, password FROM users WHERE username = '$username'");
+     //BINARY makes it case sensitive
+     $query = $_SESSION["connection"]->query("SELECT salt, password FROM users WHERE username = BINARY '$username'");
     
      if($query->num_rows == 1){
          $row = $query->fetch_array();
