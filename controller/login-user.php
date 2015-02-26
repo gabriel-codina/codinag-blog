@@ -6,7 +6,7 @@
      $password = filter_input(INPUT_POST, "password", FILTER_SANITIZE_STRING);
      //BINARY makes it case sensitive
      $query = $_SESSION["connection"]->query("SELECT salt, password FROM users WHERE username = BINARY '$username'");
-    
+    //if some one typed something in the log them ;in
      if($query->num_rows == 1){
          $row = $query->fetch_array();
          

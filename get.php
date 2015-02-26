@@ -9,11 +9,10 @@ $result = $_SESSION["connection"]->query($query);
 
 if($result){
     while($row = mysqli_fetch_array($result)){
-        
-        echo $image;
-        
+        $row['image'];
+      
     }
-    }
+}
 
 header("Content-type: image/jpeg");
 

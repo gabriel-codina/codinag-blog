@@ -2,10 +2,11 @@
 <?php
 
 require_once(__DIR__ . "/../model/config.php");
-
+//takes stuff from posts
 $query = "SELECT * FROM posts";
+//stores it
 $result = $_SESSION["connection"]->query($query);
-
+//posts posts
 if($result){
     while($row = mysqli_fetch_array($result)){
         echo "<div class = 'post'>";
@@ -18,7 +19,7 @@ if($result){
         echo "<br />";
         echo "<h6>". $row['date'] . "</h3>";
         echo "<br />";
-        echo "<img class='imag-sz' src=get.php>";
+        echo "<img class='imag-sz' src='img/" . $row['name'] . "'\">";
         echo "<br />";
         echo "</div>";
         echo "</div>";
